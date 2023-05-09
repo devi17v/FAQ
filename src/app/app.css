@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.content-wrapper {
+  background-color: rgb(10, 170, 184);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+button {
+  background: rgb(211, 216, 253);
+  color: rgb(54, 55, 62);
+  border: 2px solid rgb(106, 107, 112);
+  border-radius: 5px;
+  font-size: 20px;
+}
+section div,
+section p {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+section p {
+  padding-bottom: 20px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+section > div.false {
+  margin-bottom: 20px;
+}
